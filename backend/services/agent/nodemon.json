@@ -1,0 +1,29 @@
+{
+  "watch": [
+    "index.js",
+    "agents",
+    "config",
+    "controllers",
+    "graph",
+    "routes",
+    "services",
+    "utils"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "node_modules/*",
+    "uploads/*",
+    "uploads/**",
+    "temp/*",
+    "temp/**",
+    "lancedb-data/*",
+    "lancedb-data/**",
+    "*.lancedb/*",
+    "**/uploads/**",
+    "**/temp/**",
+    "**/lancedb-data/**",
+    "**/*.pdf",
+    "**/*.db",
+    "**/*.lance"
+  ]
+}

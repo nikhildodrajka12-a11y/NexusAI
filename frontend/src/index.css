@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root,
+[data-theme="dark"] {
+  --app-bg: #0d0f14;
+  --app-text: #e2e8f0;
+  --app-panel: #181b22;
+  --app-border: rgba(255, 255, 255, 0.06);
+}
+
+[data-theme="light"] {
+  --app-bg: #f8fafc;
+  --app-text: #0f172a;
+  --app-panel: #ffffff;
+  --app-border: rgba(15, 23, 42, 0.08);
+}
+
+/* Applies to the overall app canvas immediately. Individual existing
+   components still use their own hardcoded dark colors for now — full
+   per-component light-mode theming is a larger follow-up, not done here. */
+html,
+body,
+#root {
+  background: var(--app-bg);
+  color: var(--app-text);
+}
