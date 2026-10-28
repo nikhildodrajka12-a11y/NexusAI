@@ -1,3 +1,8 @@
+backend/services/agent/lancedb-data/
+backend/services/agent/temp/
+backend/services/agent/uploads/
+
+
 # =========================
 # Dependencies
 # =========================
